@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/naranja.png);
+    background-size: cover;
+    background-position: 0.0000000001vh;
+    background-repeat: no-repeat;
+}
+.contenedor{
+    background-image: url(img/fondoplaneta.jpg);
+    background-position: top;
+    background-size: 20rem;
+    background-position: 0 -90px;
+    background-repeat:no-repeat;
+    background-color: white;
+    border-radius: 20px;
+    padding: 60px 30px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0 0 20px black;
+    
+}
+.arriba{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.arriba img{
+    background-color: rgba(255, 100, 60, 1 );
+    border-radius: 100px;
+
+    padding: 5px 5px;
+    outline: 3px solid red;
+    box-shadow: 0px 0px 20px red;
+}
+
+.num{
+    color: orange;
+}
+
+.abajo tr{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 15px -10px -15px -10px
+
+}
+
+tr img{
+    display: flex;
+    align-items: baseline;
+    margin: 0 0 -50px 0;
+}
+
+.contenedor .arriba p{
+    font-size: 7px;
+    margin: 30px 0 -30px 0;
+}
+
+hr{
+    margin: 20px 0 -20px 0;
+    outline: 0.5px solid orange;
+    background-color: orange;
+}
